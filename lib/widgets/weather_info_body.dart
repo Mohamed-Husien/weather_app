@@ -59,7 +59,7 @@ class WeatherInfoBody extends StatelessWidget {
                   height: 100,
                 ),
                 Text(
-                  '${weatherModel.avgTemp}',
+                  '${weatherModel.avgTemp.round()}',
                   style: const TextStyle(
                     fontSize: 32,
                     fontWeight: FontWeight.bold,
